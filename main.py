@@ -4,7 +4,8 @@ number = [5, 20, 30, 35, 50]
 
 insval = int(input('Enter the insertion value: '))
 # ******************************
-number = list(map(int,input().split()))
+# number = list(map(int,input().split()))
+number = int(input())
 for i in range(len(number)):
     if insval <= number[i]:
         number.insert(i,insval)
